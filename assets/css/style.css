@@ -77,6 +77,11 @@ h2 {
     background: url(../img/foodplate.jpg) no-repeat;
 }
 
+.work-content-main:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .work-content-main h3,
 .work-content-secondary h3 {
     background-color: cadetblue;
@@ -97,6 +102,11 @@ h2 {
     height: 100px;
     margin: 20px;
     background: url(../img/header.png) no-repeat;
+}
+
+.work-content-secondary:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 #work_content_secondary {
