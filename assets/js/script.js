@@ -3,15 +3,16 @@ const content2El = document.querySelector('#work_content_2');
 const content3El = document.querySelector('#work_content_3');
 
 contentMainEl.addEventListener('click', event => {
-    let url = "https://troyat88.github.io/Find-My-Plate/";
+    let url = "https://dkn-Portfolio.herokuapp.com/";
     window.open(url);
 });
 
 content2El.addEventListener('click', event => {
-    let url = "https://ptkn2001.github.io/MyPortfolio/";
+    let url = "https://dkn-findmyplate.herokuapp.com/";
     window.open(url);
 });
 
 content3El.addEventListener('click', event => {
-    /*TODO: at the later time when this project is completed. */
+    let url = "https://npems2.herokuapp.com/";
+    window.open(url);
 });

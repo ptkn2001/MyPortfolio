@@ -71,10 +71,10 @@ h2 {
 }
 
 .work-content-main {
-    width: 640px;
-    height: 100px;
+    width: 600px;
+    padding: 30px;
     margin: 20px;
-    background: url(../img/foodplate.jpg) no-repeat;
+    background: url(../img/header.png) no-repeat;
 }
 
 .work-content-main:hover {
@@ -82,36 +82,46 @@ h2 {
     cursor: pointer;
 }
 
-.work-content-main h3,
-.work-content-secondary h3 {
+.work-content-main h3 {
     background-color: cadetblue;
     white-space: nowrap;
-    width: 200px;
-    margin-top: 10px;
+    width: 500px;
 }
 
-.work-content-main p,
-.work-content-secondary p {
+.work-content-main p {
     background-color: cadetblue;
     white-space: nowrap;
-    width: 200px;
+    width: 500px;
 }
 
 .work-content-secondary {
-    width: 300px;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     margin: 20px;
     background: url(../img/header.png) no-repeat;
+}
+
+.work-content-secondary h3 {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 400px;
+}
+
+.work-content-secondary p {
+    background-color: cadetblue;
+    white-space: nowrap;
+    width: 400px;
+}
+
+#work_content_2,
+#work_content_3 {
+    margin: 20px;
 }
 
 .work-content-secondary:hover {
     opacity: 0.8;
     cursor: pointer;
-}
-
-#work_content_secondary {
-    display: flex;
-    flex-direction: row;
 }
 
 .contact-info {
