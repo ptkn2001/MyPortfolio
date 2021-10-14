@@ -77,8 +77,9 @@ h2 {
     background: url(../img/header.png) no-repeat;
 }
 
-.work-content-main:hover {
+#work_content_main:hover {
     opacity: 0.8;
+    color: green;
     cursor: pointer;
 }
 
@@ -115,12 +116,16 @@ h2 {
 }
 
 #work_content_2,
-#work_content_3 {
+#work_content_3,
+#work_content_4 {
     margin: 20px;
 }
 
-.work-content-secondary:hover {
+#work_content_2:hover,
+#work_content_3:hover,
+#work_content_4:hover {
     opacity: 0.8;
+    color: green;
     cursor: pointer;
 }
 
